@@ -4,7 +4,7 @@ import { Line, Pie } from 'react-chartjs-2'
 
 const PieChart = ({chartData}) => {
   return (
-    <div className="chart-container" style={{width:'70%'}}>
+    <div className="chart-container" style={{width:'50%'}}>
         <Line sx={{ color:"white" , width:'100%', height:'100%'}}
         data={chartData}
         options={{
