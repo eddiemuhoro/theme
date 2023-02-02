@@ -4,6 +4,7 @@ import ImageRotator from "./projects/ImageExpand/ImageExpands";
 import './App.css'
 import Theme from "./projects/Theme/Theme";
 import Dashboard from './projects/Dashboard/Dashboard'
+import PortfolioProjects from "./projects/portfolio_dashboard/PortfolioProjects";
 function App() {
   const images=[
     {
@@ -37,7 +38,8 @@ function App() {
   return (
     <div className="App">
       {/* <ImageRotator images= {images} /> */}
-      <Dashboard/>
+      {/* <Dashboard/> */}
+      <PortfolioProjects />
       
     </div>
 
