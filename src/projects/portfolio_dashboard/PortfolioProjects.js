@@ -143,7 +143,7 @@ const PortfolioProjects = () => {
 
         </main>
         <section className='project-desc'>
-            <p>I'm the section tag</p>
+            <p style={{color:'rgb(229, 230, 232)'}}>I'm the section tag</p>
             <h2>Stats</h2>
             <section className='stats-items'>
                 <div>

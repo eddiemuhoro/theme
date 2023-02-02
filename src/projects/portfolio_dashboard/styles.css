@@ -30,9 +30,7 @@ nav{
     color: white;
     margin-top: 0;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   
 }
 
 nav p{
@@ -55,6 +53,12 @@ nav ul li{
     list-style: none;
     
 
+}
+
+main header input{
+    background-color: rgb(229, 230, 232);
+    height: 30px;
+    border: none;
 }
 
 
@@ -129,6 +133,7 @@ nav ul li{
 }
 
 .stats-items > div{
+    
     width: 40%;
     margin: 5px;
     background-color: rgb(235, 236, 229);
