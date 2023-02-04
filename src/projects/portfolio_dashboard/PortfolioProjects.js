@@ -6,16 +6,16 @@ const PortfolioProjects = () => {
   return (
     <div className='project-wrapper'>
         <nav>
-            <Star />
-            <ul>
+            <Star style={{marginBottom:'10%', display:"none"}} />
+            <div>
                 <li><Home /></li>
                 <li><ContactMail/></li>
                 <li><Phone/></li>
                 <li><Face/></li>
                 <li><LockClock/></li>
                 <li><Settings/></li>
-            </ul>
-
+            </div>
+            
             <p><SettingsPower/></p>
         </nav>
         <main>
