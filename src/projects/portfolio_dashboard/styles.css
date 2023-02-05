@@ -68,6 +68,8 @@ main header input{
     background-color: rgb(229, 232, 236);
     box-shadow: 0,0,0,1;
     border-radius: 10px;
+    transition: .3s;
+
 }
 
 .ongoing .project-item{
@@ -76,7 +78,8 @@ main header input{
 
 .project-item:hover {
     background-color: rgb(229, 224, 224);
-    transform : translate(0%, 0%) rotate(-5deg);
+    transform : translate(0%, 0%) rotate(-2deg);
+    transition: .3s;
 }
 
 .project-item header p{
