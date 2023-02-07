@@ -10,10 +10,18 @@ main{
     width: 70%;
 }
 
+.topbar{
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 0 5px;
+    border-radius: 10px;
+
+}
+
 header, footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 span{
@@ -55,7 +63,7 @@ nav  li{
 
 }
 
-main header input{
+ header input{
     background-color: rgb(229, 230, 232);
     height: 30px;
     border: none;
@@ -118,7 +126,6 @@ main header input{
 }
 
 .project-desc{
-    width: 20%;
     margin-left: 10px;
 }
 
@@ -128,6 +135,7 @@ main header input{
 
 .stats-items{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 5px;
     background-color: white;
@@ -154,5 +162,25 @@ main header input{
 
 .stats-items h4{
     color: gray;
+}
+
+.stats-time{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stats-time p{
+    font-size: 15px;
+    color: gray;
+}
+
+.stats-time h4{
+    margin: 0;
+    font-weight: bold;
 }
 
