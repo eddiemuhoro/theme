@@ -1,10 +1,7 @@
 
 import React from "react";
-import ImageRotator from "./projects/ImageExpand/ImageExpands";
 import './App.css'
-import Theme from "./projects/Theme/Theme";
-import Dashboard from './projects/Dashboard/Dashboard'
-import PortfolioProjects from "./projects/portfolio_dashboard/PortfolioProjects";
+import Home from "./projects/homestic/Home";
 function App() {
   const images=[
     {
@@ -39,7 +36,8 @@ function App() {
     <div className="App">
       {/* <ImageRotator images= {images} /> */}
       {/* <Dashboard/> */}
-      <PortfolioProjects />
+      {/* <PortfolioProjects /> */}
+      <Home/>
       
     </div>
 

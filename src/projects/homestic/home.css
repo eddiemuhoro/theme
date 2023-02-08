@@ -1,0 +1,87 @@
+.homestic{
+    background-color: white;
+}
+.sidebar ul{
+    list-style-type: none;
+}
+
+.sidebar ul li{
+    margin-bottom: 10px;
+}
+
+.homestic main{
+    display: flex;
+}
+
+.content-container{
+    width: 80%;
+    margin: 20px;
+}
+
+.content-wrapper{
+    background-color: rgb(229, 230, 232);
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.stats-items{
+    display: flex;
+    justify-content: space-between; 
+    background-color: white;
+    padding:10px 20px;
+
+}
+
+.stats-items-wrapper{
+    display: flex;
+    margin: 20px;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+
+.stat-item{
+    width: 40%;
+    background-color: rgb(235, 236, 229);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.stat-item p{
+    font-size: 13px;
+    margin: 3px;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.stat-item h4{
+    color: rgb(84, 82, 82);
+    margin: 3px;
+}
+
+.stat-item h2{
+    margin: 0;
+}
+
+.stat-item header{
+    display: flex;
+   
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.percentage{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.stats{
+    width: 80%;
+}
+
+.homes{
+    width: 15%;
+    background-color: white;
+}
+

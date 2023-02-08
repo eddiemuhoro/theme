@@ -15,6 +15,7 @@ main{
     padding: 0 5px;
     border-radius: 10px;
 
+
 }
 
 header, footer{
@@ -64,9 +65,11 @@ nav  li{
 }
 
  header input{
-    background-color: rgb(229, 230, 232);
+    background-color: rgb(245, 245, 246);
     height: 30px;
     border: none;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 
