@@ -3,7 +3,7 @@ import React from "react";
 import './App.css'
 import Dashboard from "./projects/Dashboard/Dashboard";
 import Home from "./projects/homestic/Home";
-import Questionnaire from "./projects/trial1/Qslides";
+import Questionnaire from "./projects/questionnare/Qslides";
 function App() {
  
 
