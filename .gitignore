@@ -5,6 +5,16 @@
 /.pnp
 .pnp.js
 
+# hide files in projects folder in the src folder
+/src/projects/Dashboard/
+/src/projects/Profile/
+/src/projects/homestic/
+/src/projects/portfolio_dashboard/
+/src/projects/Slider/
+/src/projects/Theme/
+/src/projects/Theme2/
+
+
 # testing
 /coverage
 
